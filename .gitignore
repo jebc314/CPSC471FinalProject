@@ -1,0 +1,8 @@
+data
+input/ImageNetS50
+__pycache__
+*ImageNet*
+*.zip
+Results
+CIFAR10
+MNIST

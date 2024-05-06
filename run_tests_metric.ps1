@@ -1,0 +1,4 @@
+Measure-Command { C:/Users/jebcu/anaconda3/envs/cs471_project/python.exe localization_RMA.py ImageNet\agg.pt ImageNet | Out-File Results/agg_localization_RMA.txt }
+Measure-Command { C:/Users/jebcu/anaconda3/envs/cs471_project/python.exe localization_RMA.py ImageNet\max_agg.pt ImageNet | Out-File Results/max_agg_localization_RMA.txt }
+Measure-Command { C:/Users/jebcu/anaconda3/envs/cs471_project/python.exe localization_RMA.py ImageNet\min_agg.pt ImageNet | Out-File Results/min_agg_localization_RMA.txt }
+Measure-Command { C:/Users/jebcu/anaconda3/envs/cs471_project/python.exe localization_RMA.py ImageNet\absmax_agg.pt ImageNet | Out-File Results/absmax_agg_localization_RMA.txt }
